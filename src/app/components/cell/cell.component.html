@@ -1,0 +1,8 @@
+<div
+  class="game-cell"
+  (click)="changePlayer()"
+  [ngClass]="{ noClick: gameService.winner }"
+  id="{{ cell.id }}"
+>
+  <p>{{ cell.state }}</p>
+</div>

@@ -1,0 +1,6 @@
+<section>
+  <!-- row 1 -->
+  <div class="cell-container" *ngFor="let cell of gameService.board">
+    <app-cell [cell]="cell" border-blue> </app-cell>
+  </div>
+</section>

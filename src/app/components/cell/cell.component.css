@@ -1,0 +1,21 @@
+.game-cell {
+  height: 150px;
+  cursor: pointer;
+  background: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+p {
+  overflow: hidden;
+
+  font-weight: bolder;
+  color: #333;
+  font-size: 5rem;
+}
+
+.noClick {
+  pointer-events: none;
+}
